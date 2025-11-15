@@ -75,7 +75,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: sarangcroft/fastapi:"{{ github.sha }}"
+          tags: sarangcroft/fastapi:Dingan
           context: "."
           file: "Dockerfile"
 
